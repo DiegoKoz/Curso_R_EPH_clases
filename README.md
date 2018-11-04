@@ -4,7 +4,7 @@ Curso de R para procesamiento de datos de la Encuesta Permanente de Hogares
 
 ## Ediciones:
 
-Edición actual: INDEC + CEPED 2018 (Guido Weksler, Diego Kozlowski y Natsumi Shokida)
+Edición actual: INDEC + CEPED 2018 (Guido Weksler, [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home) y [Natsumi Shokida](https://rpubs.com/natsumi_shokida/))
 
 Ediciones anteriores:
 
