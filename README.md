@@ -15,8 +15,6 @@ Ediciones anteriores:
 
 ## Programa actual
 
-[clase 1 Md](docs/Clase1.Rmd)
-
 ### [Clase 1](docs/Clase1.nb.html) - Conceptos Principales de EPH y R Base:
 
 - Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología
@@ -34,7 +32,7 @@ Ediciones anteriores:
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
 
-### Clase 2 - Manipulación de Bases de Datos y Mercado de Trabajo:
+### [Clase 2](docs/Clase2.nb.html) - Manipulación de Bases de Datos y Mercado de Trabajo:
 
 - Funciones principales para el trabajo con bases de datos (paquete “tidyverse”):
     - Renombrar, recodificar y seleccionar variables
@@ -49,7 +47,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
 
-### Clase 3: Cálculo de tasas de Pobreza e Indigencia.
+### [Clase 3](docs/Clase3.nb.html): Cálculo de tasas de Pobreza e Indigencia.
 
 Metodología del cálculo de pobreza por línea (para personas y hogares). Abordaje de los conceptos involucrados en la medición:
 
@@ -65,7 +63,7 @@ Ejercicios de estimaciones trimestrales de tasas de pobreza e indigencia:
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados y entrega de la consigna para el trabajo práctico final.
 
-### Clase 4 - Gráficos y variables de ingresos en la EPH:
+### [Clase 4](docs/Clase4.nb.html) - Gráficos y variables de ingresos en la EPH:
 
 - Procesamiento de la base para indicadores agregados sobre las variables de ingresos (Ingresos Laborales, No laborales, de Ocupación Principal, Total Familiar)
 - Gráficos básicos de R (función “plot”): Comandos para la visualización ágil de la información
@@ -76,7 +74,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados 
 
-###  Clase 5 - Elaboración de documentos en R e indicadores de desigualdad de género:
+###  [Clase 5](docs/Clase5.nb.html) - Elaboración de documentos en R e indicadores de desigualdad de género:
 
 - Manejo de las extensiones del software “Rmarkdown” y “RNotebook” para elaborar documentos de trabajo, presentaciones interactivas e informes. 
 -  Opciones para mostrar u ocultar código en los reportes
@@ -93,7 +91,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
      -  Visualización gráfica de los resultados dentro del documento y métodos para la publicación directa del documento desde el programa
 
 
-###  Clase 6 - R intermedio y Pool de Datos en Panel:
+###  Clase 6 - [R intermedio](docs/Clase6a.nb.html) y [Pool de Datos en Panel](docs/Clase6b.nb.html):
 
 - Abordaje de técnicas más sofisticadas en R útiles para automatizar el procesamiento periódico de la información:
 -  Loops
