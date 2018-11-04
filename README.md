@@ -15,7 +15,9 @@ Ediciones anteriores:
 
 ## Programa actual
 
-### [Clase 1](Clase1.nb.html) - Conceptos Principales de EPH y R Base:
+[clase 1 Md](docs/Clase1.Rmd)
+
+### [Clase 1](docs/Clase1.nb.html) - Conceptos Principales de EPH y R Base:
 
 - Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología
     - Abordaje del marco teórico de la EPH y sus aplicaciones prácticas.
