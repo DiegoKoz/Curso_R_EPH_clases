@@ -1,13 +1,13 @@
 
 ## Ediciones:
 
-Edición actual: INDEC + CEPED 2018 (Guido Weksler, [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home) y [Natsumi Shokida](https://rpubs.com/natsumi_shokida/))
+Edición actual: INDEC + CEPED 2018 ([Guido Weksler](https://independent.academia.edu/guidoweksler), [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home) y [Natsumi Shokida](https://rpubs.com/natsumi_shokida/))
 
 Ediciones anteriores:
 
 - CEPED (Diego Kozlowski y Guido Weksler)-2017
 - INDEC (Guido Weksler y Natsumi Shokida)-2017
-- UNGS (Guido Weksler y Matias Lioni)-2018
+- UNGS (Guido Weksler y [Matias Lioni](https://www.linkedin.com/in/matias-javier-lioni-9aa1b292))-2018
 
 
 ## Programa actual
