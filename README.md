@@ -1,5 +1,3 @@
-# Curso R EPH
-
 
 ## Ediciones:
 
