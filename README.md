@@ -1,6 +1,5 @@
 # Curso R EPH
 
-Curso de R para procesamiento de datos de la Encuesta Permanente de Hogares
 
 ## Ediciones:
 
