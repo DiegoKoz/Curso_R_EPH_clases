@@ -5,9 +5,9 @@ Edición actual: INDEC + CEPED 2018 ([Guido Weksler](https://independent.academi
 
 Ediciones anteriores:
 
-- CEPED (Diego Kozlowski y Guido Weksler)-2017
-- INDEC (Guido Weksler y Natsumi Shokida)-2017
-- UNGS (Guido Weksler y [Matias Lioni](https://www.linkedin.com/in/matias-javier-lioni-9aa1b292))-2018
+- [CEPED](http://www.economicas.uba.ar/institutos_y_centros/ceped/) (Diego Kozlowski y Guido Weksler)-2017
+- [INDEC](https://www.indec.gob.ar/) (Guido Weksler y Natsumi Shokida)-2017
+- [UNGS](https://www.ungs.edu.ar/) (Guido Weksler y [Matias Lioni](https://www.linkedin.com/in/matias-javier-lioni-9aa1b292))-2018
 
 
 ## Programa actual
