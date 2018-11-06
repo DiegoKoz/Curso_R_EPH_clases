@@ -24,18 +24,18 @@ ggplot(data = iris, aes(x = Sepal.Length, fill = Species))+
   theme(legend.position = 'none')
 
 ##"Capa del gráfico 1"
-ggplot(data = iris, aes(x = Petal.Length, Petal.Width, color = Species))
-
+g <- ggplot(data = iris, aes(x = Petal.Length, Petal.Width, color = Species))
+g
 ##"Capa del gráfico 2"
-ggplot(data = iris, aes(x = Petal.Length, Petal.Width, color = Species))+
-  geom_point(alpha=0.25)
+g <- g +  geom_point(alpha=0.25)
+g
 
 ##"Capa del gráfico 3 a 5"
-ggplot(data = iris, aes(x = Petal.Length, Petal.Width, color = Species))+
-  geom_point(alpha=0.25)+
+g <- g +
   labs(title = "Medidas de los pétalos por especie")+
   theme(legend.position = 'none')+
   facet_wrap(~Species)
+g
 
 library(tidyverse) # tiene ggplot, dplyr, tidyr, y otros
 library(ggthemes)  # estilos de gráficos
@@ -84,8 +84,7 @@ IOppal %>% #Podemos usar los "pipes" para llamar al Dataframe que continen la in
   geom_point(size= 3)+ #puedo definir tamaño de las lineas
   geom_line( size= 1 )+
   geom_text_repel(nudge_y = 500, nudge_x = 0.25)+ #Agrego etiquetas con el texto. Las corro hacia arriba (nudge_y) y a la izquierda(nudge_x)
-  theme_minimal()+ #Elijo un tema para el gráfico
-  theme(legend.position = "none") #Elimino la leyenda
+  theme_minimal() #Elijo un tema para el gráfico
 
 ggsave(filename = "Resultados/IPCF_prom.png") #Guardo el Grafico
 
@@ -121,25 +120,26 @@ ggsave(filename = "Resultados/IPCF_prom.png") #Guardo el Grafico
 
 ## Distribución de los ingresos laborales y no laborales por sexo
 datagraf_2 <-Individual_t117 %>% 
+  #eligo las variables que necesito
   select(P47T,T_VI, TOT_P12, P21 , PONDII, CH04,NIVEL_ED) %>% 
+  # Me quedo con los que tienen ingreso total individual (P47) positivo
   filter(!is.na(P47T), P47T > 0 ) %>% 
-  mutate(ingreso_laboral    = as.numeric(TOT_P12 + P21),
-         ingreso_no_laboral = as.numeric(T_VI),
+  mutate(ingreso_laboral    = TOT_P12 + P21,
+         ingreso_no_laboral = T_VI,
          ingreso_total      = ingreso_laboral + ingreso_no_laboral,
          CH04               = case_when(CH04 == 1 ~ "Varon",
                                         CH04 == 2 ~ "Mujer")) %>% 
   group_by(CH04) %>% 
   summarise('ingreso laboral'    = sum(ingreso_laboral*PONDII)/sum(ingreso_total*PONDII),
-            'ingreso no laboral' = sum(ingreso_no_laboral*PONDII)/sum(ingreso_total*PONDII))
+            'ingreso no laboral' = sum(ingreso_no_laboral*PONDII)/sum(ingreso_total*PONDII)) 
 
 datagrafico <- datagraf_2 %>%
   gather(tipo_ingreso, monto,2:3 ) 
 
 ggplot(datagrafico, aes(CH04, monto, fill = tipo_ingreso, 
                         label = sprintf("%1.1f%%", 100*monto)))+
-  #facet_grid(.~Educacion)+
   geom_col(position = "stack", alpha=0.6) + 
-  geom_text(position = position_stack(vjust = 0.5), size=3)+
+  geom_text(position = position_stack(vjust = 0.5), size=5)+
   labs(x="",y="Porcentaje")+
   theme_tufte()+
   scale_y_continuous()+
@@ -169,7 +169,6 @@ datagraf_3 <-Individual_t117 %>%
 
 ggplot(datagraf_3, aes(CH04, monto, fill = tipo_ingreso, 
                        label = sprintf("%1.1f%%", 100*monto)))+
-  #facet_grid(.~Educacion)+
   geom_col(position = "stack", alpha=0.6) + 
   geom_text(position = position_stack(vjust = 0.5), size=3)+
   labs(x="",y="Porcentaje")+
@@ -204,7 +203,8 @@ ggplot(ggdata, aes(x= NIVEL_ED, y = P21, group = NIVEL_ED, fill = NIVEL_ED )) +
 ggplot(ggdata, aes(x= CH04, y = P21, group = CH04, fill = CH04 )) +
   geom_boxplot()+
   scale_y_continuous(limits = c(0, 40000))+
-  facet_wrap(~ NIVEL_ED, labeller = "label_both")
+  facet_grid(~ NIVEL_ED, labeller = "label_both") +
+  theme(legend.position = "none")
 
 ### [Histogramas]
 hist_data <-Individual_t117 %>%
