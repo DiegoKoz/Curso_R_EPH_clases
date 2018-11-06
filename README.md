@@ -1,18 +1,18 @@
 
 ## Ediciones:
 
-Edición actual: INDEC + CEPED 2018 (Guido Weksler, [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home) y [Natsumi Shokida](https://rpubs.com/natsumi_shokida/))
+Edición actual: INDEC + CEPED 2018 ([Guido Weksler](https://independent.academia.edu/guidoweksler), [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home) y [Natsumi Shokida](https://rpubs.com/natsumi_shokida/))
 
 Ediciones anteriores:
 
-- CEPED (Diego Kozlowski y Guido Weksler)-2017
-- INDEC (Guido Weksler y Natsumi Shokida)-2017
-- UNGS (Guido Weksler y Matias Lioni)-2018
+- [CEPED](http://www.economicas.uba.ar/institutos_y_centros/ceped/) (Diego Kozlowski y Guido Weksler)-2017
+- [INDEC](https://www.indec.gob.ar/) (Guido Weksler y Natsumi Shokida)-2017
+- [UNGS](https://www.ungs.edu.ar/idei/idei) (Guido Weksler y [Matias Lioni](https://www.linkedin.com/in/matias-javier-lioni-9aa1b292))-2018
 
 
 ## Programa actual
 
-### [Clase 1](docs/Clase1.nb.html) - Conceptos Principales de EPH y R Base:
+### [Clase 1 - Conceptos Principales de EPH y R Base](docs/Clase1.nb.html)
 
 - Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología
     - Abordaje del marco teórico de la EPH y sus aplicaciones prácticas.
@@ -29,7 +29,7 @@ Ediciones anteriores:
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
 
-### [Clase 2](docs/Clase2.nb.html) - Manipulación de Bases de Datos y Mercado de Trabajo:
+### [Clase 2 - Manipulación de Bases de Datos y Mercado de Trabajo](docs/Clase2.nb.html)
 
 - Funciones principales para el trabajo con bases de datos (paquete “tidyverse”):
     - Renombrar, recodificar y seleccionar variables
@@ -44,7 +44,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
 
-### [Clase 3](docs/Clase3.nb.html): Cálculo de tasas de Pobreza e Indigencia.
+### [Clase 3 - Cálculo de tasas de Pobreza e Indigencia](docs/Clase3.nb.html)
 
 Metodología del cálculo de pobreza por línea (para personas y hogares). Abordaje de los conceptos involucrados en la medición:
 
@@ -60,7 +60,7 @@ Ejercicios de estimaciones trimestrales de tasas de pobreza e indigencia:
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados y entrega de la consigna para el trabajo práctico final.
 
-### [Clase 4](docs/Clase4.nb.html) - Gráficos y variables de ingresos en la EPH:
+### [Clase 4 - Gráficos y variables de ingresos en la EPH](docs/Clase4.nb.html)
 
 - Procesamiento de la base para indicadores agregados sobre las variables de ingresos (Ingresos Laborales, No laborales, de Ocupación Principal, Total Familiar)
 - Gráficos básicos de R (función “plot”): Comandos para la visualización ágil de la información
@@ -71,7 +71,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados 
 
-###  [Clase 5](docs/Clase5.nb.html) - Elaboración de documentos en R e indicadores de desigualdad de género:
+### [Clase 5 - Elaboración de documentos en R e indicadores de desigualdad de género](docs/Clase5.nb.html)
 
 - Manejo de las extensiones del software “Rmarkdown” y “RNotebook” para elaborar documentos de trabajo, presentaciones interactivas e informes. 
 -  Opciones para mostrar u ocultar código en los reportes
@@ -88,7 +88,7 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
      -  Visualización gráfica de los resultados dentro del documento y métodos para la publicación directa del documento desde el programa
 
 
-###  Clase 6 - [R intermedio](docs/Clase6a.nb.html) y [Pool de Datos en Panel](docs/Clase6b.nb.html):
+###  Clase 6 - [R intermedio](docs/Clase6a.nb.html) y [Pool de Datos en Panel](docs/Clase6b.nb.html)
 
 - Abordaje de técnicas más sofisticadas en R útiles para automatizar el procesamiento periódico de la información:
 -  Loops
