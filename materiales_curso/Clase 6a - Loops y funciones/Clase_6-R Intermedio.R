@@ -51,7 +51,7 @@ if( 2+2 == 148.24){
 }
 
 ##ifelse
-resultado <- ifelse(2 + 2 == 4, yes =  "Joya",no = "Error")
+resultado <- if_else(2+2==4, true = "Joya",false = "Error") #Versión dplyr
 
 ABC_123 <- data.frame(Letras = LETTERS[1:20],Num = 1:20)
 ABC_123 %>% 
