@@ -105,4 +105,4 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
 
 
-## [Fuentes](/materiales_curso/Fuentes)
+## [Fuentes](https://github.com/DiegoKoz/Curso_R_EPH_clases/tree/master/materiales_curso/Fuentes)
