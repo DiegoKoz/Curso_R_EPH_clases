@@ -103,3 +103,6 @@ Ejercicios de práctica a realizar por los participantes en clase, a partir de l
     - Gráficos de Transición de estados
 
 Ejercicios de práctica a realizar por los participantes en clase, a partir de los conceptos abordados
+
+
+## [Fuentes](/materiales_curso/Fuentes)
